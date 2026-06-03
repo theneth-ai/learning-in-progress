@@ -1,3 +1,4 @@
+#Practing libraries in python
 import random
 
 ai_companies = ["Google", "OpenAI", "Meta", "Microsoft"]
