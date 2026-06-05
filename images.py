@@ -3,7 +3,7 @@ from PIL import Image
 
 image_list = []
 
-# අනිවාර්යයෙන්ම sys.argv[1:] වෙන්න ඕනේ (පයිතන් ෆයිල් එක අතෑරලා පින්තූර ටික විතරක් ගන්න)
+
 for argument in sys.argv[1:]:
     image = Image.open(argument)
     image_list.append(image)
